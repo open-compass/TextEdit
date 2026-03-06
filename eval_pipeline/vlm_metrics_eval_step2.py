@@ -301,15 +301,15 @@ def calculate_metrics(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Calculate Gemini Evaluation Scores")
-    parser.add_argument("--model_order", default="bagel", help="待测模型名字顺序，逗号分隔")
-    parser.add_argument("--answer_dir", required=True, help="Step1 Gemini API 评测结果目录")
-    parser.add_argument("--output_file", required=True, help="输出 JSON 报告路径")
+    parser.add_argument("--model_order", default="bagel", help="Comma-separated model names in the evaluation order")
+    parser.add_argument("--answer_dir", required=True, help="Directory containing Step 1 Gemini API evaluation results")
+    parser.add_argument("--output_file", required=True, help="Path to the output JSON report")
     # Weight arguments (5 floats)
     parser.add_argument("--weights", type=float, nargs=5, default=DEFAULT_WEIGHTS, 
-                        help="Q1-Q5 的权重, 默认: 0.4 0.3 0.1 0.1 0.1")
+                        help="Weights for Q1-Q5. Default: 0.4 0.3 0.1 0.1 0.1")
     # Cutoff switch
     parser.add_argument("--enable_cutoff", action="store_true", 
-                        help="开启熔断机制：如果 Q1 < 4 (归一化 0.8)，后续项记为 0 分")
+                        help="Enable cutoff logic: if Q1 < 4 (normalized 0.8), set later items to 0")
     args = parser.parse_args()
     
     calculate_metrics(args)

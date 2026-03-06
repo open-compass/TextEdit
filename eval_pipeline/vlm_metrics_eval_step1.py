@@ -423,15 +423,14 @@ def main():
     parser.add_argument("--input_data_dir", required=True, help="Directory containing the evaluated prompt files(.jsonl)")
     parser.add_argument("--model_output_root", required=True, help="Root directory where model outputs are stored")
     parser.add_argument("--gt_data_root", required=True, help="Root directory for Ground Truth images")
-    parser.add_argument("--output_base_dir", required=True, help="API 推理结果保存目录")
+    parser.add_argument("--output_base_dir", required=True, help="Directory to save API inference results")
 
     parser.add_argument("--api_key", type=str, required=True, help="Gemini API Key")
     parser.add_argument("--base_url", type=str, required=True, help="Gemini API Base URL (e.g., https://api.gemini.com/v1)")
-    parser.add_argument("--models", required=True, help="待评测模型列表，逗号分隔")
+    parser.add_argument("--models", required=True, help="Comma-separated list of models to evaluate")
     parser.add_argument("--model_name", default="gemini-3-pro-preview", help="Judge model name")
-    parser.add_argument("--num_workers", type=int, default=32, help="并发数")
-    parser.add_argument("--debug", action="store_true", help="Debug 模式，只处理前3个样本")
-
+    parser.add_argument("--num_workers", type=int, default=32, help="Number of concurrent workers")
+    parser.add_argument("--debug", action="store_true", help="Debug mode: only process the first 3 samples")
     args = parser.parse_args()
 
     # Parse model list
