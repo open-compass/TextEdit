@@ -3,7 +3,7 @@
 # TextEdit: A High-Quality, Multi-Scenario Text Editing Benchmark for Generation Models
 
 <p align="center">
-  <a href='#'>
+  <a href='https://arxiv.org/abs/2603.09877'>
     <img src='https://img.shields.io/badge/ArXiv-2603.09877-b31b1b?logo=arxiv' alt='2603.09877'>
   </a>
   <a href='https://huggingface.co/datasets/opencompass/TextEdit'>
