@@ -532,13 +532,10 @@ The output includes a JSON report, a CSV table, and a Markdown-formatted leaderb
 If you find our TextEdit Bench useful, please cite our InternVL-U technical report using this BibTeX.
 
 ```bibtex
-@article{tian2026internvlu,
-      title={InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing},
-      author={Tian, Changyao and Yang, Danni and Chen, Guanzhou and Cui, Erfei and Wang, Zhaokai and Duan, Yuchen and Yin, Penghao and Chen, Sitao and Yang, Ganlin and Liu, Mingxin and Zhu, Zirun and Fan, Ziqian and Gu, Leyao and Wang, Haomin and Wei, Qi and Yin, Jinhui and Yang, Xue and Zhong, Zhihang and Qin, Qi and Xin, Yi and Fu, Bin and Liu, Yihao and Ge, Jiaye and Guo, Qipeng and Luo, Gen and Li, Hongsheng and Qiao, Yu and Chen, Kai and Zhang, Hongjie},
-      year={2026},
-      eprint={2603.09877},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.09877}
+@article{tian2026internvl,
+  title={InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing},
+  author={Tian, Changyao and Yang, Danni and Chen, Guanzhou and Cui, Erfei and Wang, Zhaokai and Duan, Yuchen and Yin, Penghao and Chen, Sitao and Yang, Ganlin and Liu, Mingxin and others},
+  journal={arXiv preprint arXiv:2603.09877},
+  year={2026}
 }
 ```
