@@ -23,6 +23,9 @@ If you find our work helpful, please give us a ⭐ or cite our paper. **See the 
 - **[2026/03/06]** Evaluation code released.
 - **[2026/03/06]** Leaderboard updated with latest models.
 
+## 📝 Todo
+We will release an enhanced version of the TextEdit benchmark next month. Stay tuned!
+
 
 
 ## 📖 Introduction
