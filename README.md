@@ -14,12 +14,12 @@
 [Sitao Chen](https://github.com/fudan-chen),
 [Changyao Tian](https://scholar.google.com/citations?user=kQ3AisQAAAAJ&hl=zh-CN&oi=ao)
 
-If you find our work helpful, please give us a ⭐ or cite our paper. See the InternVL-U technical report appendix for more details.
+If you find our work helpful, please give us a ⭐ or cite our paper. **See the InternVL-U technical report appendix for more details**.
 
 </div>
 
 ## 🎉 News
-- **[2026/03/06]** TextEdit benchmark released. 
+- **[2026/03/06]** TextEdit benchmark released. Try it out and see how well your model performs on challenging text editing tasks!
 - **[2026/03/06]** Evaluation code released.
 - **[2026/03/06]** Leaderboard updated with latest models.
 
@@ -44,7 +44,9 @@ To comprehensively assess model performance, we combine **classic OCR, image-fid
 Our goal is to provide a **standardized, realistic, and scalable** benchmark for text editing research.
 
 ---
-
+## 🎨 Visualization Ouput Example
+ <img src="assets/output.jpg" width="100%">
+ 
 ## 🏆 LeadBoard
 <details>
   <summary><strong>📊 Full Benchmark Results</strong></summary>
@@ -120,7 +122,7 @@ Our goal is to provide a **standardized, realistic, and scalable** benchmark for
     <td>0.57</td><td>0.60</td><td>0.56</td><td>0.57</td><td>0.54</td><td>0.78</td><td>5.19</td>
   </tr>
   <tr>
-    <td><strong>InternVL-U (Ours)</strong></td>
+    <td><strong>InternVL-U</strong></td>
     <td align="center">2B+1.7B</td>
     <td>0.77</td><td>0.73</td><td>0.70</td><td>0.71</td><td>0.72</td><td>0.75</td><td>5.70</td>
     <td>0.79</td><td>0.77</td><td>0.75</td><td>0.75</td><td>0.77</td><td>0.80</td><td>5.12</td>
@@ -199,7 +201,7 @@ Our goal is to provide a **standardized, realistic, and scalable** benchmark for
     <td>0.38</td><td>0.51</td><td>0.68</td><td>0.62</td><td>0.42</td><td>0.54</td>
   </tr>
   <tr>
-    <td><strong>InternVL-U (Ours)</strong></td>
+    <td><strong>InternVL-U</strong></td>
     <td align="center">2B+1.7B</td>
     <td>0.94</td><td>0.90</td><td>0.71</td><td>0.80</td><td>0.80</td><td>0.88</td>
     <td>0.87</td><td>0.86</td><td>0.91</td><td>0.82</td><td>0.62</td><td>0.83</td>
@@ -282,7 +284,7 @@ Our goal is to provide a **standardized, realistic, and scalable** benchmark for
     <td>0.53</td><td>0.58</td><td>0.53</td><td>0.55</td><td>0.51</td><td>0.78</td><td>5.25</td>
   </tr>
   <tr>
-    <td><strong>InternVL-U (Ours)</strong></td>
+    <td><strong>InternVL-U</strong></td>
     <td align="center">2B+1.7B</td>
     <td>0.77</td><td>0.74</td><td>0.70</td><td>0.71</td><td>0.71</td><td>0.76</td><td>5.79</td>
     <td>0.74</td><td>0.72</td><td>0.69</td><td>0.70</td><td>0.72</td><td>0.79</td><td>5.14</td>
@@ -360,7 +362,7 @@ Our goal is to provide a **standardized, realistic, and scalable** benchmark for
     <td>0.36</td><td>0.52</td><td>0.69</td><td>0.64</td><td>0.40</td><td>0.54</td>
   </tr>
   <tr>
-    <td><strong>InternVL-U (Ours)</strong></td>
+    <td><strong>InternVL-U</strong></td>
     <td align="center">2B+1.7B</td>
     <td>0.94</td><td>0.91</td><td>0.72</td><td>0.73</td><td>0.75</td><td>0.89</td>
     <td>0.88</td><td>0.87</td><td>0.90</td><td>0.78</td><td>0.57</td><td>0.79</td>
@@ -525,8 +527,6 @@ The output includes a JSON report, a CSV table, and a Markdown-formatted leaderb
 
 ---
 
-## 🎨 Visualization Ouput Example
- <img src="assets/output.jpg" width="100%">
  
 ## Citation
 If you find our TextEdit Bench useful, please cite our InternVL-U technical report using this BibTeX.
